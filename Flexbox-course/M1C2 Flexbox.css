@@ -1,0 +1,23 @@
+.flexOne {
+    display: flex;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+  }
+  
+  .flexOne > .square {
+    margin: 5px;
+  }
+flextwo
+  .flexTwo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexTwo > .square {
+    margin: 5px;
+  }
+
